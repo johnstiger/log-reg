@@ -1,0 +1,28 @@
+<form #addForm="ngForm" (ngSubmit)="addDriver(addForm.value)">
+    <div>
+        <label for="firstNnme">First Name: </label>
+        <input [ngModel]="firstname" type="text" name="firstname" id="firstname">
+    </div><br>
+    <div>
+        <label for="lastname">Last Name: </label>
+        <input [ngModel]="lastname" type="text" name="lastname" id="lastname">
+    </div><br>
+    <div>
+        <label for="contact_number">Contact Number: </label>
+        <input [ngModel]="contact_number" type="text" name="contact_number" id="contact_number">
+    </div><br>
+    <div>
+        <label for="license">License ID: </label>
+        <input [ngModel]="license" type="text" name="license" id="license">
+    </div>
+    <div>
+        <label for="status">Status: </label>
+        <input [ngModel]="status" type="text" name="status" id="status">
+    </div>
+    <div>
+        <label for="salary">Salary: </label>
+        <input [ngModel]="salary" type="text" name="salary" id="salary">
+    </div><br>
+    <br><br>
+    <button type="submit">Add Person</button>
+</form>

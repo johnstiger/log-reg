@@ -41,7 +41,7 @@ button[type=submit] {
 
 .parallax {
     /* The image used */
-    background-image: url("../../assets/images/image1.jpg");
+    background-image: url("../../../assets/images/image1.jpg");
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */

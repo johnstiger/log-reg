@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url('../../assets/images/image5.jpg');
+    background-image: url('../../../assets/images/image2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -9,7 +9,7 @@
 }
 
 .laban {
-    background-color: rgba(235, 245, 251);
+    background-color: rgba(235, 245, 251)
 }
 
 .form-control,

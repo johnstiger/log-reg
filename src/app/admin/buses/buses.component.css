@@ -1,0 +1,38 @@
+.content {
+    padding: 16px;
+}
+
+.content>mat-card {
+    width: 200px;
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.single-img {
+    padding: 0 20px 20px;
+    margin: 10px;
+    border-radius: 5px 5px 5px;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: white;
+}
+
+img:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+#hidden {
+    color: white;
+    width: 50%;
+    margin: 2in;
+}
+
+.modal {
+    position: absolute;
+}

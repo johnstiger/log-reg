@@ -53,7 +53,7 @@
                                     <div *ngIf="form.get('password').errors.minlength">Password must be a least 6 character</div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-block btn-primary" [disabled]="!form.valid">Log In</button>
+                            <button type="submit" class="btn btn-block btn-primary" [disabled]="!form.valid" routerLink="admin/dashboard">Log In</button>
                             <p><a href="">forgot your password? </a></p>
                         </form>
                     </div>

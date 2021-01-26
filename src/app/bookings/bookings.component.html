@@ -1,0 +1,20 @@
+<table class="table">
+    <thead class="thead">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Client Name</th>
+            <th scope="col">Bus type</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let booking of bookings">
+            <th scope="row">{{booking.id}}</th>
+            <td>{{booking.client_name}}</td>
+            <td>{{booking.bus_name}}</td>
+            <td><button>Update</button>
+                <button (click)="deleteBooking(booking)">Delete</button></td>
+
+        </tr>
+    </tbody>
+</table>
